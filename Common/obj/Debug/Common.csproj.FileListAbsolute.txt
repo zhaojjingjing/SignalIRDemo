@@ -163,3 +163,4 @@ D:\Demo\SignalIRDemo\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 D:\Demo\SignalIRDemo\Common\obj\Debug\Common.csproj.CopyComplete
 D:\Demo\SignalIRDemo\Common\obj\Debug\Common.dll
 D:\Demo\SignalIRDemo\Common\obj\Debug\Common.pdb
+D:\Demo\SignalIRDemo\Common\obj\Debug\Common.csprojAssemblyReference.cache

@@ -79,7 +79,7 @@ namespace ChatBox.ViewModels
             {
                 SendMsgContentText = null;
                 await HubService.SendMsg(chatInfoDto);
-                ChatMsgList = MsgListSingle.Instance.chatMsgList;
+               
             }
             catch (Exception ex)
             {
@@ -100,6 +100,7 @@ namespace ChatBox.ViewModels
         public ChatBoxViewModel()
         {
             HubService.Connect();  //连接HubService
+            ChatMsgList = MsgListSingle.Instance.chatMsgList;
             this.SendMsgCommand = new DelegateCommand<string>(SendMsgExcute);
             this.CleanCommand = new DelegateCommand(CleanExcute);
         }
